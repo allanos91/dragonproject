@@ -1,20 +1,20 @@
 class Dragon{
-
   constructor(name, color) {
     this.name = name;
     this.color = color;
-    this.dragons = []
-    Dragon.getDragons(name)
   }
 
   breathesFire() {
     return `${this.name} breathes fire everywhere! BURN!!!!`
   }
 
-  static getDragons(dragon) {
-    this.dragons.push(this.name)
-    // console.log(this.dragons)
-    return this.dragons;
+  static getDragons(...obj) {
+    let allDragons =[]
+    let objArr = [...obj]
+    objArr.forEach(el => {
+      allDragons.push(el.name)
+    })
+    return allDragons
   }
 
 }
