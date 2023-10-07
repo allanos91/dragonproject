@@ -333,8 +333,7 @@ Implement the following in the __all-dragons.js__ file.
 2. Require the `EvilDragon` class from the
    __./classes/evil-dragon.js__ module.
 
-3. Create 2 new instances, 1 of the `FriendlyDragon` Class and the other of the
-   `EvilDragon` Class
+3. Create 2 new instances, 1 of the `FriendlyDragon` Class and the other of the `EvilDragon` Class
     * A `FriendlyDragon` named "Falkor" with the color "white", the life goals
       of "save Atreyu from the swamp", "save Atreyu from the Nothing", and
       "scare the local bullies into a dumpster" and has the friend "Bastian".

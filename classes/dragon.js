@@ -1,4 +1,4 @@
-class Dragon{
+const Dragon = class Dragon{
   constructor(name, color) {
     this.name = name;
     this.color = color;
@@ -9,7 +9,7 @@ class Dragon{
   }
 
   static getDragons(...obj) {
-    let allDragons =[]
+    let allDragons = []
     let objArr = [...obj]
     objArr.forEach(el => {
       allDragons.push(el.name)
@@ -20,6 +20,9 @@ class Dragon{
 }
 // let dragon1 = new Dragon("Trogdor", "Black")
 // let dragon2 = new Dragon("Charizard", "Orange")
+
+module.exports = Dragon
+
 /****************************************************************************/
 /******************* DO NOT EDIT CODE BELOW THIS LINE ***********************/
 
